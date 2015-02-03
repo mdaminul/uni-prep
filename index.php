@@ -89,8 +89,29 @@
 		
 		<!-- Bannar ares -->
 		<div class="bannar_area fix">
-			<div class="container-fluid" style="padding:0px;">
-				<img class="img-responsive" src="img/banar.jpg" alt="" />
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-sm-11 col-xs-12 fix circle_course_area" style="margin:0 auto;float:none;">
+						<div class="col-md-4 col-sm-4 col-xs-4">
+							<div class="image fix" >
+								<img src="img/cir1.jpg" alt=""/>
+							</div>
+							<a href=""><h2 class="course">Business<br>Courses</h2></a>
+						</div>
+						<div class="col-md-4 col-sm-4 col-xs-4">
+							<div class="image fix" >
+								<img src="img/cir2.jpg" alt=""/>
+							</div>
+							<a href=""><h2 class="course">Management<br>Courses</h2></a>
+						</div>
+						<div class="col-md-4 col-sm-4 col-xs-4">
+							<div class="image fix" >
+								<img src="img/cir3.jpg" alt=""/>
+							</div>
+							<a href=""><h2 class="course">TESOL Teaching<br>Certificate</h2></a>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<!-- Bannar area end -->

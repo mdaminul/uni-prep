@@ -369,9 +369,21 @@ text-transform: uppercase;
 /**/
 
 /*style for the banar area*/
-.bannar_area.fix {
-cursor: pointer;
+.bannar_area {
+background: url(img/banar.jpg);
 }
+.image.fix {
+background: #fff;
+border-radius: 50%;
+text-align: center;
+margin: 0 auto;
+}
+h2.course {
+text-align: center;
+text-decoration: underline;
+color: #333333;
+}
+
 /**/
 
 /*style for the article area*/

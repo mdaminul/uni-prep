@@ -23,6 +23,20 @@ font-size: 42px;
 .footer-menu ul li {
 padding: 0px 15px;
 }
+.image.fix {
+width: 150px;
+height: 150px;
+}
+.image.fix img {
+vertical-align: middle;
+margin-top: 35px;
+}
+h2.course {
+font-size: 27px;
+}
+.circle_course_area {
+padding: 75px 0px;
+}
 
 
 /* Mini computer */
@@ -52,8 +66,20 @@ font-size: 38px;
 .footer-menu ul li {
 padding: 0px 10px;
 }
-
-
+.image.fix {
+width: 150px;
+height: 150px;
+}
+.image.fix img {
+vertical-align: middle;
+margin-top: 35px;
+}
+h2.course {
+font-size: 27px;
+}
+.circle_course_area {
+padding: 75px 0px;
+}
 
 
 /* Tablet Layout: 768px. */
@@ -83,10 +109,20 @@ font-size: 34px;
 .footer-menu ul li {
 padding: 0px 7px;
 }
-
-
-
-
+.image.fix {
+width: 150px;
+height: 150px;
+}
+.image.fix img {
+vertical-align: middle;
+margin-top: 35px;
+}
+h2.course {
+font-size: 27px;
+}
+.circle_course_area {
+padding: 75px 0px;
+}
 
 }
 
@@ -154,6 +190,21 @@ margin: 0 auto;
 float: none;
 display: table;
 }
+.image.fix {
+width: 100px;
+height: 100px;
+}
+.image.fix img {
+vertical-align: middle;
+margin-top: 14px;
+}
+h2.course {
+font-size: 23px;
+}
+.circle_course_area {
+padding: 35px 0px;
+}
+
 
 }
 
@@ -215,9 +266,20 @@ margin: 0 auto;
 float: none;
 display: table;
 }
-
-
-
+.image.fix {
+width: 90px;
+height: 90px;
+}
+.image.fix img {
+vertical-align: middle;
+margin-top: 9px;
+}
+h2.course {
+font-size: 18px;
+}
+.circle_course_area {
+padding: 30px 0px;
+}
 
 }
 
