@@ -30,9 +30,9 @@
         <![endif]-->
 		
 		<!-- header area -->
-        <header>
+        <header class="header_area">
 			<div class="container">
-				<div class="row header_area">
+				<div class="row">
 					<div class="col-md-10 col-sm-12 header-main-area">
 						<div class="col-md-6 col-sm-6">
 							<div class="logo fix">
@@ -66,9 +66,9 @@
 		<!-- header area end -->
 		
 		<!-- nav area -->
-		<div class="nav_area fix">
+		<div class="nav_area_total fix">
 			<div class="container">
-				<div class="row nav_area_total">
+				<div class="row">
 					<div class="col-md-10 col-sm-12 main-nav-area">
 						<nav class="menu">
 							<ul>
@@ -89,10 +89,8 @@
 		
 		<!-- Bannar ares -->
 		<div class="bannar_area fix">
-			<div class="container">
-				<div class="row">
-					<img class="img-responsive" src="img/banar.jpg" alt="" />
-				</div>
+			<div class="container-fluid" style="padding:0px;">
+				<img class="img-responsive" src="img/banar.jpg" alt="" />
 			</div>
 		</div>
 		<!-- Bannar area end -->
@@ -100,54 +98,56 @@
 		<!-- Article area  -->
 		<div class="articles_area fix">
 			<div class="container">
-				<div class="row">
-					<div class="col-md-10 col-sm-12 main-article-area fix">
-						<h2 class="article_header">Articles</h2>
-						<div class="col-md-6 col-sm-6">
-							<div class="single_article_area fix">
-								<div class="single_article_upper fix">
-									<div class="date fix">
-										<p class="date">21</p>
-										<p class="month">January</p>
+				<div class="row" style="padding:30px 0px;background:#fff;">
+					
+						<div class="col-md-10 col-sm-12 fix" style="margin:0 auto;float:none;">
+							<h2 class="article_header">Articles</h2>
+							<div class="col-md-6 col-sm-6">
+								<div class="single_article_area fix">
+									<div class="single_article_upper fix">
+										<div class="date fix">
+											<p class="date">21</p>
+											<p class="month">January</p>
+										</div>
+										<section class="single-article-header">
+											<h2>Teaching ESL to Children <img src="img/uni-logo.png" alt="" /></h2>
+										</section>
 									</div>
-									<section class="single-article-header">
-										<h2>Teaching ESL to Children <img src="img/uni-logo.png" alt="" /></h2>
-									</section>
-								</div>
-								<div class="article-details fix">
-									<p>SCSS and LESS have very similar syntaxes, with SASS being a slight variant on SCSS. The similarities between them allows a developer to switch seamlessly if need be. In the following demonstration I will focus on the LESS syntax but all of the concepts can be transferred to the Ruby world</p>
-									<div class="readmore fix">
-										<a href="">Read more</a>
+									<div class="article-details fix">
+										<p>An ESL teacher of children has a difficult and challenging job, however the job is also very rewarding. To teach children ESL you must be patient, fun as well as playful. You might patient think you are teaching ESL to...</p>
+										<div class="readmore fix">
+											<a href="">Read more</a>
+										</div>
+									</div>
+									<div class="article_info fix">
+										<p><span class="glyphicon glyphicon-tag" aria-hidden="true"></span>Teaching Children,Teaching Tips,TESOL Certificate</p>
 									</div>
 								</div>
-								<div class="article_info fix">
-									<p><span class="glyphicon glyphicon-tag" aria-hidden="true"></span>Teaching Children,Teaching Tips,TESOL Certificate</p>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<div class="single_article_area fix">
+									<div class="single_article_upper fix">
+										<div class="date fix">
+											<p class="date">21</p>
+											<p class="month">January</p>
+										</div>
+										<section class="single-article-header">
+											<h2>Teaching ESL to Children <img src="img/uni-logo.png" alt="" /></h2>
+										</section>
+									</div>
+									<div class="article-details fix">
+										<p>The first time that you walk into the classroom not as a student, but as a teacher, can be nerve-wracking. You will have millions of thoughts running through your mind about things that could possibly go wrong. Will the...</p>
+										<div class="readmore fix">
+											<a href="">Read more</a>
+										</div>
+									</div>
+									<div class="article_info fix">
+										<p><span class="glyphicon glyphicon-tag" aria-hidden="true"></span>Teaching Children,Teaching Tips,TESOL Certificate</p>
+									</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-6 col-sm-6">
-							<div class="single_article_area fix">
-								<div class="single_article_upper fix">
-									<div class="date fix">
-										<p class="date">21</p>
-										<p class="month">January</p>
-									</div>
-									<section class="single-article-header">
-										<h2>Teaching ESL to Children <img src="img/uni-logo.png" alt="" /></h2>
-									</section>
-								</div>
-								<div class="article-details fix">
-									<p>SCSS and LESS have very similar syntaxes, with SASS being a slight variant on SCSS. The similarities between them allows a developer to switch seamlessly if need be. In the following demonstration I will focus on the LESS syntax but all of the concepts can be transferred to the Ruby world</p>
-									<div class="readmore fix">
-										<a href="">Read more</a>
-									</div>
-								</div>
-								<div class="article_info fix">
-									<p><span class="glyphicon glyphicon-tag" aria-hidden="true"></span>Teaching Children,Teaching Tips,TESOL Certificate</p>
-								</div>
-							</div>
-						</div>
-					</div>
+					
 				</div>
 			</div>
 		</div>
@@ -155,16 +155,16 @@
 		
 		
 		<!-- Video area  -->
-		<div class="video_area fix">
+		<div class="video_area fix" style="background: #f3f3f3;padding: 30px 0px;">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12 col-sm-12 video_area_main fix">
+					
 						<div class="col-md-10 col-sm-12 main-video-section">
 							<h2 class="video_header">Videos</h2>
 							<div class="col-md-6 col-sm-6">
 								<div class="single_video_area fix">
 									<div class="main-video fix">
-										<iframe width="489" height="275" src="https://www.youtube.com/embed/XkMK07-eNw4" frameborder="0" allowfullscreen></iframe>
+										<iframe width="489" height="275" src="https://www.youtube.com/embed/7k76N1FYasc" frameborder="0" allowfullscreen></iframe>
 									</div>
 									<div class="about-video fix">
 										<h2>Why Choose UNI-prep for TESOL?</h2>
@@ -174,7 +174,7 @@
 							<div class="col-md-6 col-sm-6">
 								<div class="single_video_area fix">
 									<div class="main-video fix">
-										<iframe width="489" height="275" src="https://www.youtube.com/embed/XkMK07-eNw4" frameborder="0" allowfullscreen></iframe>
+										<iframe width="489" height="275" src="https://www.youtube.com/embed/3yNg1gKZNwA" frameborder="0" allowfullscreen></iframe>
 									</div>
 									<div class="about-video fix">
 										<h2>Why Choose UNI-prep for TESOL?</h2>
@@ -182,7 +182,7 @@
 								</div>
 							</div>
 						</div>
-					</div>
+					
 				</div>
 			</div>
 		</div>
@@ -192,8 +192,8 @@
 		<!-- News specilas area  -->
 		<div class="news_area fix">
 			<div class="container">
-				<div class="row">
-					<div class="col-md-10 col-sm-12 news-area-main">
+				<div class="row news-area-main fix" style="padding:20px 0px;">
+					<div class="col-md-10 col-sm-12" style="margin:0 auto;float:none;">
 						<div class="col-md-6 col-sm-6">
 							<div class="news_area fix">
 								<h2 class="news_header">News</h2>
@@ -254,9 +254,9 @@
 		<!-- News specials  area end -->
 		
 		<!-- Student reviews area  -->
-		<div class="student_reviews_area fix">
+		<div class="student_reviews_area fix" style="background: #f3f3f3;padding: 40px 0px;">
 			<div class="container">
-				<div class="row main_student_reviews_area fix">
+				<div class="row">
 					<div class="col-md-10 col-sm-12 fix" style="margin:0 auto;float:none;">
 						<h2 class="revies-heading">Student reviews</h2>
 						<div class="col-md-6 col-sm-6">
@@ -325,9 +325,9 @@
 		<!-- Up footer area  end-->
 		
 		<!--  footer area  -->
-		<footer>
+		<footer style="background:#cfcfcf;margin-top:40px; padding:20px 0px;">
 			<div class="container">
-				<div class="row" style="background:#cfcfcf;margin-top:40px; padding:15px 0px;">
+				<div class="row">
 					<div class="col-md-10 col-sm-12" style="margin:0 auto;float:none;">
 						<div class="col-md-8 col-sm-8">
 							<div class="footer-menu fix">

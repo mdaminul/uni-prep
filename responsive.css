@@ -1,27 +1,228 @@
+/*Default*/
+.social_icon ul li {
+width: 35px;
+height: 35px;
+}
+p.num, p.email {
+text-align: right;
+}
+.num-email.fix{font-size:14px;}
+
+.slicknav_menu{display:none;}
+
+.menu{display:block;}
+
+section.single-article-header h2{font-size:27px;}
+
+h2.special-heading {
+font-size: 40px;
+}
+h2.article_header,h2.video_header,h2.special_header,h2.news_header,h2.revies-heading,h2.up-footer-heading {
+font-size: 42px;
+}
+.footer-menu ul li {
+padding: 0px 15px;
+}
+
+
+/* Mini computer */
+@media only screen and (min-width: 970px) and (max-width: 1169px) {
+.social_icon ul li {
+width: 25px;
+height: 30px;
+}
+p.num, p.email {
+text-align: right;
+}
+.num-email.fix{font-size:13.5px;}
+
+.slicknav_menu{display:none;}
+
+.menu{display:block;}
+
+section.single-article-header h2{font-size:20px;}
+}
+
+h2.special-heading {
+font-size: 35px;
+}
+h2.article_header,h2.video_header,h2.special_header,h2.news_header,h2.revies-heading,h2.up-footer-heading {
+font-size: 38px;
+}
+.footer-menu ul li {
+padding: 0px 10px;
+}
+
+
+
+
 /* Tablet Layout: 768px. */
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-.column {width:750px}
+@media only screen and (min-width: 768px) and (max-width: 969px) {
+.social_icon ul li {
+width: 22px;
+height: 25px;
+}
+p.num, p.email {
+text-align: right;
+}
+.num-email.fix{font-size:12px;}
 
+.slicknav_menu{display:none;}
+
+.menu{display:block;}
+
+section.single-article-header h2{font-size:17px;}
+
+h2.special-heading {
+font-size: 29px;
+}
+h2.article_header,h2.video_header,h2.special_header,h2.news_header,h2.revies-heading,h2.up-footer-heading {
+font-size: 34px;
+}
+.footer-menu ul li {
+padding: 0px 7px;
 }
 
 
 
-/* Mobile Layout: 320px. */
 
-@media only screen and (max-width: 767px) {
 
-.column {width:300px}
 }
-
-
 
 /* Wide Mobile Layout: 480px. */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+.logo{text-align:center;}
+.social_icon ul li {
+width: 35px;
+height: 35px;
+}
+p.num, p.email {
+text-align: center;
+}
+.num-email.fix{font-size:12px;}
+.social_icon ul {
+overflow: hidden;
+display: table;
+margin: 0 auto;
+}
+.social_icon{margin-bottom:22px;}
 
-.column {width:450px}
+.nav_area_total{display:none;}
+
+.slicknav_menu{display:block;}
+
+.menu{display:none;}
+
+section.single-article-header h2{font-size:19px;}
+.single_article_area.fix {
+margin-bottom: 15px;
+}
+.single_student.fix {
+margin-bottom: 15px;
+}
+.up_footer_area img.img-responsive {
+text-align: center;
+margin: 0px auto;
+margin-bottom: 15px;
+}
+h2.special-heading {
+font-size: 25px;
+}
+h2.article_header,h2.video_header,h2.special_header,h2.news_header,h2.revies-heading,h2.up-footer-heading {
+font-size: 32px;
+}
+.footer-menu ul li {
+padding: 0px 4px;
+font-size: 12px;
+border: none;
+}
+.footer-menu ul {
+padding: 0;
+list-style: none;
+margin: 0 auto;
+overflow: hidden;
+display: table;
+}
+p.copyright_txt {
+text-align: center;
+}
+.footer-logo img {
+text-align: center;
+margin: 0 auto;
+float: none;
+display: table;
+}
 
 }
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 479px) {
+.logo{text-align:center;}
+.social_icon ul li {
+width: 20px;
+height: 20px;
+}
+p.num, p.email {
+text-align: center;
+}
+.num-email.fix{font-size:11px;}
+.social_icon ul {
+overflow: hidden;
+display: table;
+margin: 0 auto;
+}
+.social_icon{margin-bottom:22px;}
+
+.nav_area_total{display:none;}
+
+.nav_area_total{display:none;}
+
+.slicknav_menu{display:block;}
+
+.menu{display:none;}
+
+section.single-article-header h2{font-size:15px;}
+.single_article_area.fix {
+margin-bottom: 15px;
+}
+.single_student.fix {
+margin-bottom: 15px;
+}
+
+.up_footer_area img.img-responsive {
+text-align: center;
+margin: 0px auto;
+margin-bottom: 15px;
+}
+h2.special-heading {
+font-size: 21px;
+}
+h2.article_header,h2.video_header,h2.special_header,h2.news_header,h2.revies-heading,h2.up-footer-heading {
+font-size: 27px;
+}
+.footer-menu{display:none;}
+
+p.copyright_txt {
+text-align: center;
+}
+.footer-logo img {
+text-align: center;
+margin: 0 auto;
+float: none;
+display: table;
+}
+
+
+
+
+}
+
+
+
+
 
 

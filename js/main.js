@@ -1,3 +1,3 @@
 $(document).ready(function(){
-	$('#nav').slicknav();
+	$('.menu').slicknav();
 });
