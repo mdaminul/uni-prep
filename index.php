@@ -66,7 +66,7 @@
 		<!-- header area end -->
 		
 		<!-- nav area -->
-		<div class="nav_area_total fix">
+		<div class="nav_area_total">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-10 col-sm-12 main-nav-area">
@@ -74,7 +74,17 @@
 							<ul>
 								<li><a href="">Home</a></li>
 								<li><a href="">About us</a></li>
-								<li><a href="">Courses</a></li>
+								<li><a href="">Courses</a>
+									<ul>
+										<li><a href="">Home</a></li>
+										<li><a href="">About us</a></li>
+										<li><a href="">Courses</a></li>
+										<li><a href="">Corporate training</a></li>
+										<li><a href="">Contact</a></li>
+										<li><a href="">Blog</a></li>
+										<li><a href="">WP</a></li>
+									</ul>
+								</li>
 								<li><a href="">Corporate training</a></li>
 								<li><a href="">Contact</a></li>
 								<li><a href="">Blog</a></li>
